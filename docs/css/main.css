@@ -1,0 +1,81 @@
+main {
+    max-width: 1200px;
+    margin: 4rem auto;
+    padding: 1rem;
+}
+
+main .bat-why-flex {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main img {
+    max-width: 350px;
+}
+
+.bat-main h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.bat-grid-why {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2rem 0;
+    gap: 1rem;
+}
+
+.bat-grid-why div {
+    color: var(--primary-red-dark);
+    padding: 1rem;
+    border: 2px solid var(--light-primary);
+    font-weight: 600;
+    transition: 0.3s all;
+}
+
+.bat-grid-why div span {
+    display: block;
+    color: var(--prussian-blue);
+    font-weight: 600;
+}
+
+.bat-grid-why div:hover {
+    border: 2px solid var(--light-primary);
+    color: var(--honeydew);
+    background-color: var(--primary-red);
+}
+
+.bat-install-container {
+    text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+    main img {
+        max-width: 300px;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+
+
+    main .bat-why-flex {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    main img {
+        max-width: 250px;
+    }
+
+    .bat-grid-why {
+
+        grid-template-columns: 1fr;
+
+    }
+
+}

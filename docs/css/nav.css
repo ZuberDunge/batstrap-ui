@@ -1,0 +1,154 @@
+.bat-nav {
+    background-color: var(--primary-red);
+    padding: 0 0.5rem;
+
+}
+
+nav {
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    color: var(--honeydew);
+    height: 60px;
+}
+
+.bat-nav .bat-logo {
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.bat-nav .bat-logo i {
+    font-size: 2rem;
+}
+
+.bat-nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 0 1rem;
+
+}
+
+.bat-nav ul li {
+    padding: 0.5rem 1rem;
+    transition: all .5s;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+}
+
+.bat-nav ul li:hover {
+    border-bottom: 2px solid var(--honeydew);
+}
+
+.bat-nav .bat-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.bat-theme-toggle,
+.bat-logo i {
+    color: var(--prussian-blue);
+    transition: all .5s ease-in-out;
+}
+
+i {
+    cursor: pointer;
+}
+
+
+.bat-nav-icon {
+    width: 30px;
+    cursor: pointer;
+}
+
+.bat-nav-icon:after,
+.bat-nav-icon:before,
+.bat-nav-icon div {
+    background-color: var(--honeydew);
+    border-radius: 3px;
+    content: '';
+    display: block;
+    height: 3px;
+    margin: 8px 0;
+    transition: all .2s ease-in-out;
+}
+
+
+
+.bat-nav-icon-hover:before {
+    transform: translateY(11px) rotate(135deg);
+}
+
+.bat-nav-icon-hover:after {
+    transform: translateY(-11px) rotate(-135deg);
+}
+
+.bat-nav-icon-hover div {
+    transform: scale(0);
+}
+
+#bat-menu-icon {
+    display: none;
+}
+
+.bat-theme-toggle {
+    display: flex;
+    /* display: none; */
+    justify-content: center;
+    align-items: center;
+    padding: 0.25rem;
+    border-radius: 50%;
+
+}
+
+.bat-theme-toggle:hover {
+    background-color: var(--light-primary);
+}
+
+.bat-nav .bat-active {
+    font-weight: 600;
+    border-bottom: 2px solid var(--honeydew);
+}
+
+@media screen and (max-width: 600px) {
+    #bat-menu-icon {
+        display: block;
+    }
+
+    .bat-nav ul {
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: -100%;
+        background-color: var(--prussian-blue);
+        transition: 0.5s all;
+        font-size: 1.25rem;
+        font-weight: 500;
+        padding: 1rem;
+    }
+
+    .bat-nav ul.bat-show-list {
+        top: 60px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        justify-content: center;
+        transition: 0.65s all;
+    }
+
+    .bat-nav ul li {
+        padding: 1rem;
+    }
+
+}

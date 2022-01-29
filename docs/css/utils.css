@@ -1,0 +1,23 @@
+.bat-primary-color {
+    color: var(--primary-red);
+}
+
+.bat-mar-auto {
+    margin: auto;
+}
+
+.bat-flex {
+    display: flex;
+}
+
+.bat-list-non-bullets {
+    list-style-type: none;
+}
+
+.flex-gap-1 {
+    gap: 1rem;
+}
+
+.bold-600 {
+    font-weight: 600;
+}
