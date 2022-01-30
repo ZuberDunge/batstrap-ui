@@ -3,12 +3,32 @@
     grid-template-columns: 1fr 4fr;
 }
 
+.bat-grid-docs button {
+    border: 0;
+    font-size: inherit;
+    color: inherit;
+    background: inherit;
+    font-family: inherit;
+    opacity: 0.6;
+    font-weight: inherit;
+}
+
+
 .bat-sidebar {
     top: 0;
     position: sticky;
     height: 90vh;
     /* background-color: var(--prussian-blue); */
     color: var(--prussian-blue);
+}
+
+.bat-sidebar button:focus {
+    font-weight: 600;
+    opacity: 1;
+}
+
+.bat-sidebar button:hover {
+    opacity: 1;
 }
 
 /* --honeydew: #f1faeeff;
@@ -18,11 +38,67 @@
 
 
 .bat-comp-list li {
-    padding: 0.5rem;
-    transition: 0.4s all;
+    padding: 0.35rem;
+    /* transition: 0.4s all; */
+    font-weight: 500;
 }
 
-.bat-comp-list li:hover {
-    background-color: var(--powder-blue);
-    color: var(--prussian-blue);
+.bat-pre-next-btns {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600
+}
+
+.bat-pre-next-btns div {
+    opacity: 0.6;
+    transition: 0.2s all;
+}
+
+.bat-pre-next-btns div:hover {
+    opacity: 1;
+
+}
+
+
+
+
+.bat-side-menu-icon {
+    padding-left: 0.5rem;
+    display: none;
+    position: sticky;
+    top: 0;
+    background-color: var(--honeydew);
+    z-index: 3;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .bat-sidebar {
+        top: 100px;
+        right: 0;
+        left: -100%;
+        position: absolute;
+        height: 90vh;
+        background-color: var(--honeydew);
+        color: var(--prussian-blue);
+        /* visibility: hidden; */
+        width: 50%;
+        height: 100vh;
+        transition: 0.3s all;
+    }
+
+    .bat-show-sidebar {
+        left: 0;
+        z-index: 5;
+    }
+
+    .bat-side-menu-icon {
+        display: block;
+    }
+
+    .bat-grid-docs {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }

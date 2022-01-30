@@ -7,7 +7,7 @@
 body {
     color: var(--prussian-blue);
     font-family: 'Raleway';
-    background-color: var(--lighter-primary);
+    /* background-color: var(--lighter-primary); */
 }
 
 a {

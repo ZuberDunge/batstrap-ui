@@ -46,3 +46,19 @@
 .bat-pad-tb-1 {
     padding: 1rem 0;
 }
+
+.bat-pad-tb-8px {
+    padding: 0.5rem 0;
+}
+
+.bat-txt-center {
+    text-align: center;
+}
+
+.bat-fs-14px {
+    font-size: 14px;
+}
+
+.bat-pad-8px {
+    padding: 0.5rem;
+}

@@ -5,14 +5,15 @@
 }
 
 nav {
-    max-width: 1400px;
+    max-width: 1200px;
     margin: auto;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     font-size: 1.5rem;
     color: var(--honeydew);
     height: 60px;
+    padding: 0 1rem;
 }
 
 .bat-nav .bat-logo {
@@ -51,7 +52,7 @@ nav {
     justify-content: flex-end;
     align-items: center;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .bat-theme-toggle,
@@ -136,6 +137,7 @@ i {
         font-size: 1.25rem;
         font-weight: 500;
         padding: 1rem;
+        z-index: 50;
     }
 
     .bat-nav ul.bat-show-list {
