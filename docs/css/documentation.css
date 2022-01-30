@@ -96,7 +96,7 @@
         color: var(--prussian-blue);
         /* visibility: hidden; */
         width: 50%;
-        height: 100vh;
+        height: 100%;
         transition: 0.3s all;
     }
 
