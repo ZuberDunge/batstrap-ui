@@ -57,6 +57,14 @@
     font-size: 1.25rem;
 }
 
+.bat-zub-ftr-link {
+    font-weight: 600;
+}
+
+.bat-zub-ftr-link:hover {
+    color: var(--honeydew);
+}
+
 @media screen and (max-width: 600px) {
 
     .bat-footer-component {

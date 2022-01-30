@@ -31,15 +31,17 @@ menuIcon.addEventListener("click", () => {
 let sideBarOpen = false;
 const sideMenuIcon = document.querySelector(".bat-side-menu-icon");
 const sideBar = document.querySelector(".bat-sidebar")
+const sideContent = document.querySelector(".bat-content")
 sideMenuIcon.addEventListener("click", () => {
     sideBarOpen = !sideBarOpen;
     if (sideBarOpen) {
-        sideBar.classList.add("bat-show-sidebar")
-        sideMenuIcon.innerHTML = ` Menu <i class="fas fa-angle-double-left"></i>`
+        sideBar.classList.add("bat-show-sidebar");
+        sideMenuIcon.innerHTML = ` Menu <i class="fas fa-angle-double-left"></i>`;
+        sideContent.classList.add("bat-blur-5px");
 
     } else {
-        sideBar.classList.remove("bat-show-sidebar")
-        sideMenuIcon.innerHTML = ` Menu <i class="fas fa-angle-double-right"></i>`
-
+        sideBar.classList.remove("bat-show-sidebar");
+        sideMenuIcon.innerHTML = ` Menu <i class="fas fa-angle-double-right"></i>`;
+        sideContent.classList.remove("bat-blur-5px");
     }
 });
