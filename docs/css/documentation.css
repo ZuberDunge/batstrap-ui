@@ -40,7 +40,7 @@
 
 
 .bat-comp-list li {
-    padding: 0.35rem;
+    padding: 0.5rem;
     /* transition: 0.4s all; */
     font-weight: 500;
 }
@@ -95,7 +95,7 @@
         background-color: var(--honeydew);
         color: var(--prussian-blue);
         /* visibility: hidden; */
-        width: 50%;
+        width: 100%;
         height: 100%;
         transition: 0.3s all;
     }
