@@ -1,0 +1,28 @@
+.bat-grid-docs {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.bat-sidebar {
+    top: 0;
+    position: sticky;
+    height: 90vh;
+    /* background-color: var(--prussian-blue); */
+    color: var(--prussian-blue);
+}
+
+/* --honeydew: #f1faeeff;
+--powder-blue: #a8dadcff;
+--celadon-blue: #457b9dff;
+--prussian-blue: #1d3557ff; */
+
+
+.bat-comp-list li {
+    padding: 0.5rem;
+    transition: 0.4s all;
+}
+
+.bat-comp-list li:hover {
+    background-color: var(--powder-blue);
+    color: var(--prussian-blue);
+}
