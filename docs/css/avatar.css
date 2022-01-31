@@ -1,0 +1,30 @@
+.bat-avatar-xl {
+    height: 12rem;
+    width: 12rem;
+}
+
+.bat-avatar-lg {
+    height: 10rem;
+    width: 10rem;
+}
+
+.bat-avatar-md {
+    height: 6rem;
+    width: 6em;
+}
+
+.bat-avatar-sm {
+    height: 3rem;
+    width: 3em;
+}
+
+.bat-avatar-xs {
+    height: 1.5rem;
+    width: 1.5em;
+}
+
+.bat-avatar-component img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
