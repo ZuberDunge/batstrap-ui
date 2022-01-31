@@ -18,8 +18,8 @@
 .bat-sidebar {
     top: 0;
     position: sticky;
-
-    /* background-color: var(--prussian-blue); */
+    height: 90vh;
+    overflow: scroll;
     color: var(--prussian-blue);
 }
 
@@ -32,12 +32,6 @@
     opacity: 1;
     font-weight: 600;
 }
-
-/* --honeydew: #f1faeeff;
---powder-blue: #a8dadcff;
---celadon-blue: #457b9dff;
---prussian-blue: #1d3557ff; */
-
 
 .bat-comp-list li {
     padding: 0.5rem;

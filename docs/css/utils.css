@@ -67,7 +67,7 @@
     padding: 0.5rem;
 }
 
-.bat-active-btn {
+body .bat-active-btn {
     font-weight: 600 !important;
-    opacity: 1 !important
+    opacity: 1 !important;
 }
