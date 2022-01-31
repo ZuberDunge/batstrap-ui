@@ -10,13 +10,34 @@
     display: flex;
 }
 
+.flex-gap-1 {
+    gap: 1rem;
+}
+
+.flex-gap-2 {
+    gap: 2rem;
+}
+
+.bat-flx-dir-col {
+    flex-direction: column;
+}
+
+.bat-justify-center {
+    justify-content: center;
+}
+
+.bat-justify-evenly {
+    justify-content: space-evenly;
+}
+
+.bat-flex-wrap {
+    flex-wrap: wrap;
+}
+
 .bat-list-non-bullets {
     list-style-type: none;
 }
 
-.flex-gap-1 {
-    gap: 1rem;
-}
 
 .bold-600 {
     font-weight: 600;
@@ -67,9 +88,13 @@
     padding: 0.5rem;
 }
 
-.bat-active-btn {
+body .bat-active-btn {
     font-weight: 600 !important;
-    opacity: 1 !important
+    opacity: 1 !important;
+}
+
+.bat-m-tb-2r {
+    margin: 2rem 0;
 }
 
 .bat-br-50 {
