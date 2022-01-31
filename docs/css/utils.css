@@ -96,3 +96,11 @@ body .bat-active-btn {
 .bat-m-tb-2r {
     margin: 2rem 0;
 }
+
+.bat-br-50 {
+    border-radius: 50%;
+}
+
+.bat-flow-hd {
+    overflow: hidden;
+}
