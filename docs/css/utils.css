@@ -71,3 +71,11 @@
     font-weight: 600 !important;
     opacity: 1 !important
 }
+
+.bat-br-50 {
+    border-radius: 50%;
+}
+
+.bat-flow-hd {
+    overflow: hidden;
+}
