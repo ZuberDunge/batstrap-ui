@@ -70,5 +70,4 @@
 body .bat-active-btn {
     font-weight: 600 !important;
     opacity: 1 !important;
-    border-bottom: 1px solid var(--primary-red);
 }

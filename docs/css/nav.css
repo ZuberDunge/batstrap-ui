@@ -36,14 +36,15 @@ nav {
 
 }
 
-.bat-nav ul li {
+.bat-nav ul li a {
     padding: 0.5rem 1rem;
-    transition: all .5s;
+    transition: all .1s;
     border-bottom: 2px solid transparent;
     cursor: pointer;
+    display: block;
 }
 
-.bat-nav ul li:hover {
+.bat-nav ul li a:hover {
     border-bottom: 2px solid var(--honeydew);
 }
 
@@ -115,7 +116,7 @@ i {
     background-color: var(--light-primary);
 }
 
-.bat-nav .bat-active {
+.bat-nav .bat-active a {
     font-weight: 600;
     border-bottom: 2px solid var(--honeydew);
 }
@@ -149,7 +150,7 @@ i {
         transition: 0.65s all;
     }
 
-    .bat-nav ul li {
+    .bat-nav ul li a {
         padding: 1rem;
     }
 

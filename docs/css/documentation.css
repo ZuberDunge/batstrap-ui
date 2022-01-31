@@ -20,7 +20,6 @@
     position: sticky;
     height: 90vh;
     overflow: scroll;
-    /* background-color: var(--prussian-blue); */
     color: var(--prussian-blue);
 }
 
@@ -33,12 +32,6 @@
     opacity: 1;
     font-weight: 600;
 }
-
-/* --honeydew: #f1faeeff;
---powder-blue: #a8dadcff;
---celadon-blue: #457b9dff;
---prussian-blue: #1d3557ff; */
-
 
 .bat-comp-list li {
     padding: 0.5rem;
