@@ -45,3 +45,14 @@ sideMenuIcon.addEventListener("click", () => {
         sideContent.classList.remove("bat-blur-5px");
     }
 });
+
+
+
+const batDismiss = document.querySelectorAll(".bat-dismiss")
+
+batDismiss.forEach(e => {
+    e.addEventListener("click", (e) => {
+        let parentAlert = e.target.parentNode;
+        parentAlert.style.display = "none";
+    })
+})

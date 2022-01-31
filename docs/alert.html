@@ -22,10 +22,12 @@
     <div class="bat-app">
       <div class="bat-nav">
         <nav>
-          <div class="bat-logo"><i class="fad fa-bat"></i> BatstrapUI</div>
+          <a href="index.html">
+            <div class="bat-logo"><i class="fad fa-bat"></i> BatstrapUI</div></a
+          >
           <div class="bat-menu">
             <ul id="bat-menu-list">
-              <li><a href="index.html">Home</a></li>
+              <a href="index.html"> <li>Home</li></a>
               <li class="bat-active">Docs</li>
               <li>Contribute <i class="fab fa-github"></i></li>
             </ul>
@@ -43,17 +45,20 @@
       <div class="bat-pad-tb-1 bat-side-menu-icon">
         Menu <i class="fas fa-angle-double-right"></i>
       </div>
-
       <div class="bat-grid-docs bat-mar-auto bat-mxw-1200">
         <div class="bat-sidebar bat-pad-1">
-          <div class="bat-fs-1r bold-500">Get Started</div>
+          <div class="bat-fs-1r bold-600">
+            <a href="get-started.html"> Get Started</a>
+          </div>
           <ul class="bat-comp-list bat-fs-14px">
             <li>
-              <button>Installation</button>
+              <a href="get-started.html"> <button>Installation</button></a>
             </li>
-            <li><button>Starter Template</button></li>
+            <li>
+              <a href="get-started.html"> <button>Starter Template</button></a>
+            </li>
           </ul>
-          <div class="bat-fs-1r bold-500 bat-pad-tb-8px">Components</div>
+          <div class="bat-fs-1r bold-600 bat-pad-tb-8px">Components</div>
           <ul class="bat-comp-list bat-fs-14px">
             <li><button class="bat-active-btn">Alert</button></li>
             <li>
@@ -86,7 +91,7 @@
           </ul>
         </div>
         <div class="bat-content bat-pad-1">
-          <div class="fs-2r bold-500 bat-pad-tb-1">Alert</div>
+          <div class="fs-2r bold-500 bat-pad-tb-1">Alerts</div>
           <div class="bat-fs-1r">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
             corporis deleniti qui, repellendus veritatis atque sunt alias ut
@@ -94,7 +99,214 @@
             magni assumenda eaque aut!
           </div>
 
-          <div class="bat-link-area"></div>
+          <div class="bat-alert-component">
+            <div class="fs-1-5r bold-600">
+              Simple Info Alert <i class="fas fa-info-circle"></i>
+            </div>
+            <div class="bat-alert bat-alert-info">
+              <i class="fas fa-info-circle"></i> This is info alert!
+            </div>
+
+            <div class="bat-link-area">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28230%2C57%2C70%2C1%29&t=one-light&wt=none&l=auto&width=576&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522bat-alert%2520bat-alert-info%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-info-circle%2522%253E%253C%252Fi%253E%2520This%2520is%2520info%2520alert%21%250A%253C%252Fdiv%253E"
+                style="
+                  width: 100%;
+                  min-height: 119px;
+                  height: auto;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: scroll;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <div class="bat-alert-component">
+            <div class="fs-1-5r bold-600">
+              Simple Success Alert <i class="fas fa-check-circle"></i>
+            </div>
+            <div class="bat-alert bat-alert-success">
+              <i class="fas fa-check-circle"></i> This is success alert!
+            </div>
+            <div class="bat-link-area">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28230%2C57%2C70%2C1%29&t=one-light&wt=none&l=auto&width=576&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522bat-alert%2520bat-alert-success%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%2520This%2520is%2520success%2520alert%21%250A%253C%252Fdiv%253E"
+                style="
+                  width: 100%;
+                  height: auto;
+                  min-height: 119px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: scroll;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <div class="bat-alert-component">
+            <div class="fs-1-5r bold-600">
+              Simple Warning Alert <i class="fas fa-exclamation-triangle"></i>
+            </div>
+            <div class="bat-alert bat-alert-warning">
+              <i class="fas fa-exclamation-triangle"></i> This is warning alert!
+            </div>
+            <div class="bat-link-area">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28230%2C57%2C70%2C1%29&t=one-light&wt=none&l=auto&width=576&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522bat-alert%2520bat-alert-warning%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%2520This%2520is%2520warning%2520alert%21%250A%253C%252Fdiv%253E"
+                style="
+                  width: 100%;
+                  height: 100%;
+                  min-height: 119px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: scroll;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <div class="bat-alert-component">
+            <div class="fs-1-5r bold-600">
+              Simple Error Alert <i class="fas fa-exclamation-circle"></i>
+            </div>
+            <div class="bat-alert bat-alert-error">
+              <i class="fas fa-exclamation-circle"></i> This is error alert!
+            </div>
+            <div class="bat-link-area">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28230%2C57%2C70%2C1%29&t=one-light&wt=none&l=htmlmixed&width=576&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522bat-alert%2520bat-alert-error%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-circle%2522%253E%253C%252Fi%253E%2520This%2520is%2520error%2520alert%21%250A%253C%252Fdiv%253E"
+                style="
+                  width: 100%;
+                  height: 100%;
+                  min-height: 119px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: scroll;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <div class="fs-2r bold-500 bat-pad-tb-1">Dismissable Alerts</div>
+          <div class="bat-alert-component">
+            <div class="fs-1-5r bold-600">
+              Info Alert with Dismiss <i class="fas fa-info-circle"></i>
+            </div>
+            <div class="bat-alert bat-alert-dismiss bat-alert-info">
+              <span
+                ><i class="fas fa-info-circle"></i> This is info alert!
+              </span>
+              <i class="fas fa-times bat-dismiss"></i>
+            </div>
+
+            <div class="bat-link-area">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28230%2C57%2C70%2C1%29&t=one-light&wt=none&l=htmlmixed&width=576&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522bat-alert%2520bat-alert-dismiss%2520bat-alert-info%2522%253E%250A%2520%2520%253Cspan%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-info-circle%2522%253E%253C%252Fi%253E%2520This%2520is%2520info%2520alert%21%250A%2520%2520%253C%252Fspan%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520bat-dismiss%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A"
+                style="
+                  width: 100%;
+                  min-height: 119px;
+                  height: auto;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: scroll;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <div class="bat-alert-component">
+            <div class="fs-1-5r bold-600">
+              Success Alert with Dismiss <i class="fas fa-check-circle"></i>
+            </div>
+            <div class="bat-alert bat-alert-dismiss bat-alert-success">
+              <span>
+                <i class="fas fa-check-circle"></i> This is success alert!
+              </span>
+              <i class="fas fa-times bat-dismiss"></i>
+            </div>
+            <div class="bat-link-area">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28230%2C57%2C70%2C1%29&t=one-light&wt=none&l=htmlmixed&width=576&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522bat-alert%2520bat-alert-dismiss%2520bat-alert-success%2522%253E%250A%2520%2520%253Cspan%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%2520This%2520is%2520success%2520alert%21%250A%2520%2520%253C%252Fspan%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520bat-dismiss%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A"
+                style="
+                  width: 100%;
+                  height: auto;
+                  min-height: 119px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: scroll;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <div class="bat-alert-component">
+            <div class="fs-1-5r bold-600">
+              Warning Alert With Dismiss
+              <i class="fas fa-exclamation-triangle"></i>
+            </div>
+            <div class="bat-alert bat-alert-dismiss bat-alert-warning">
+              <span>
+                <i class="fas fa-exclamation-triangle"></i> This is warning
+                alert!
+              </span>
+              <i class="fas fa-times bat-dismiss"></i>
+            </div>
+            <div class="bat-link-area">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28230%2C57%2C70%2C1%29&t=one-light&wt=none&l=htmlmixed&width=576&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522bat-alert%2520bat-alert-dismiss%2520bat-alert-warning%2522%253E%250A%2520%2520%253Cspan%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%2520This%2520is%2520warning%2520alert%21%250A%2520%2520%253C%252Fspan%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520bat-dismiss%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A"
+                style="
+                  width: 100%;
+                  height: 100%;
+                  min-height: 119px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: scroll;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <div class="bat-alert-component">
+            <div class="fs-1-5r bold-600">
+              Error Alert With Dismiss <i class="fas fa-exclamation-circle"></i>
+            </div>
+            <div class="bat-alert bat-alert-dismiss bat-alert-error">
+              <span>
+                <i class="fas fa-exclamation-circle"></i> This is error alert!
+              </span>
+              <i class="fas fa-times bat-dismiss"></i>
+            </div>
+            <div class="bat-link-area">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28230%2C57%2C70%2C1%29&t=one-light&wt=none&l=htmlmixed&width=576&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522bat-alert%2520bat-alert-dismiss%2520bat-alert-error%2522%253E%250A%2520%2520%253Cspan%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-circle%2522%253E%253C%252Fi%253E%2520This%2520is%2520error%2520alert%21%250A%2520%2520%253C%252Fspan%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520bat-dismiss%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E"
+                style="
+                  width: 100%;
+                  height: 100%;
+                  min-height: 119px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: scroll;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
 
           <div class="bat-pre-next-btns">
             <div>
