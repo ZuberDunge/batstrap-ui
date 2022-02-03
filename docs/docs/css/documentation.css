@@ -3,7 +3,7 @@
     grid-template-columns: 1fr 4fr;
 }
 
-.bat-grid-docs button {
+.bat-grid-docs li button {
     border: 0;
     font-size: 16px;
     color: inherit;
@@ -19,7 +19,7 @@
     top: 0;
     position: sticky;
     height: 90vh;
-    overflow: scroll;
+    overflow-y: auto;
     color: var(--prussian-blue);
 }
 
@@ -67,7 +67,6 @@
     top: 0;
     background-color: var(--honeydew);
     z-index: 3;
-    opacity: 0.8;
 }
 
 .bat-side-menu-icon:hover {

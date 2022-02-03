@@ -100,8 +100,8 @@ header {
     width: 0.625rem;
     box-sizing: border-box;
     height: 0.625rem;
-    border-top: 0.125rem solid var(--honeydew);
-    border-right: 0.125rem solid var(--honeydew);
+    border-top: 0.125rem solid var(--white-only);
+    border-right: 0.125rem solid var(--white-only);
     transform: rotate(45deg);
 }
 
@@ -128,14 +128,14 @@ header {
 }
 
 #bat-btn-arrow button:hover .circle .icon.arrow {
-    background: var(--honeydew);
+    background: var(--white);
     box-sizing: border-box;
     transform: translate(1rem, 0);
 }
 
 #bat-btn-arrow button:hover .button-text {
     box-sizing: border-box;
-    color: var(--honeydew);
+    color: var(--white);
 }
 
 @media screen and (max-width: 700px) {
