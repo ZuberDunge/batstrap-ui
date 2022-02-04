@@ -46,8 +46,13 @@
     font-weight: 600;
     width: fit-content;
     border-radius: .5rem;
+    transition: .4s all;
 }
 
+.bat-footer .bat-github-btn:hover {
+    background-color: var(--primary-red-dark);
+
+}
 
 .bat-footer-social div {
     padding: 0.5rem;

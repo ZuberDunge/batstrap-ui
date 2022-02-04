@@ -1,0 +1,12 @@
+.bat-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.bat-img-component {
+    padding: 1rem
+}
+
+.bat-mxw-200 {
+    max-width: 200px;
+}
