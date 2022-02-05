@@ -26,8 +26,16 @@
     justify-content: center;
 }
 
+.bat-align-center {
+    align-items: center;
+}
+
 .bat-justify-evenly {
     justify-content: space-evenly;
+}
+
+.bat-justify-between {
+    justify-content: space-between;
 }
 
 .bat-flex-wrap {
@@ -70,6 +78,10 @@
 
 .bat-pad-tb-1 {
     padding: 1rem 0;
+}
+
+.bat-pad-8px {
+    padding: 0.5rem;
 }
 
 .bat-pad-tb-8px {
@@ -151,4 +163,21 @@ body .bat-active-btn {
 
 .bat-border-1 {
     border: 1px solid var(--powder-blue);
+}
+
+.bat-m-r-8px {
+    margin-right: 0.5rem
+}
+
+.bat-line-through {
+    text-decoration: line-through;
+    opacity: .7;
+}
+
+.bat-fs-12px {
+    font-size: 12px
+}
+
+.bat-primary-clr {
+    color: var(--primary-red);
 }

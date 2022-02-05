@@ -29,7 +29,7 @@ main img {
 }
 
 .bat-grid-why div {
-    color: var(--primary-red-dark);
+    color: var(--light-primary);
     padding: 1rem;
     border: 2px solid var(--light-primary);
     font-weight: 600;
