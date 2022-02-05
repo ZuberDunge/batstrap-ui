@@ -73,15 +73,11 @@
 @media screen and (max-width: 600px) {
 
     .bat-footer-component {
-
         grid-template-columns: 1fr;
-
     }
 
     .bat-footer {
-
         padding: .5rem;
-
     }
 
 }
