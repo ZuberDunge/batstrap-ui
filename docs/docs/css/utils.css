@@ -91,6 +91,9 @@
 body .bat-active-btn {
     font-weight: 600 !important;
     opacity: 1 !important;
+    border-bottom: 2px solid var(--primary-red) !important;
+    padding-bottom: 0.5rem;
+    padding-right: 1rem;
 }
 
 .bat-m-tb-2r {
@@ -103,4 +106,49 @@ body .bat-active-btn {
 
 .bat-flow-hd {
     overflow: hidden;
+}
+
+.bat-fs-10px {
+    font-size: 10px;
+}
+
+.bat-fs-20px {
+    font-size: 20px;
+}
+
+.bat-fs-40px {
+    font-size: 40px;
+}
+
+.bat-fs-60px {
+    font-size: 60px;
+}
+
+.bat-fs-80px {
+    font-size: 80px;
+}
+
+/* border radius */
+.bat-br-3px {
+    border-radius: 3px;
+}
+
+.bat-br-5px {
+    border-radius: 5px;
+}
+
+.bat-br-10px {
+    border-radius: 10px;
+}
+
+.bat-br-15px {
+    border-radius: 10px;
+}
+
+.bat-br-20px {
+    border-radius: 20px;
+}
+
+.bat-border-1 {
+    border: 1px solid var(--powder-blue);
 }

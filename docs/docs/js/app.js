@@ -1,8 +1,8 @@
 const menuIcon = document.querySelector(".bat-nav-icon")
 const menulist = document.querySelector("#bat-menu-list")
-// const toggleIcon = document.querySelector("#toggle-i-icon")
+const toggleIcon = document.querySelector("#toggle-i-icon")
 
-// const toggleTheme = document.querySelector(".bat-theme-toggle")
+const toggleTheme = document.querySelector(".bat-theme-toggle")
 let clickedMenu = true;
 
 
@@ -18,15 +18,24 @@ menuIcon.addEventListener("click", () => {
     clickedMenu = !clickedMenu;
 })
 
-// let clickedTheme = true;
-// toggleTheme.addEventListener("click", () => {
-//     if (clickedTheme) {
-//         toggleIcon.classList = "toggle-i-icon far fa-lightbulb-on";
-//     } else {
-//         toggleIcon.classList = "toggle-i-icon fas fa-moon"
-//     }
-//     clickedTheme = !clickedTheme;
-// })
+let clickedTheme = true;
+if (localStorage.getItem("theme")) {
+    document.body.classList.add("bat-dark")
+    toggleIcon.classList = "toggle-i-icon far fa-lightbulb-on";
+    clickedTheme = false;
+}
+toggleTheme.addEventListener("click", () => {
+    if (clickedTheme) {
+        toggleIcon.classList = "toggle-i-icon far fa-lightbulb-on";
+        document.body.classList.add("bat-dark")
+        localStorage.setItem("theme", "dark");
+    } else {
+        toggleIcon.classList = "toggle-i-icon fas fa-moon"
+        document.body.classList.remove("bat-dark")
+        localStorage.removeItem("theme")
+    }
+    clickedTheme = !clickedTheme;
+})
 
 let sideBarOpen = false;
 const sideMenuIcon = document.querySelector(".bat-side-menu-icon");

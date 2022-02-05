@@ -1,0 +1,220 @@
+.bat-btn {
+    padding: 0.75rem 1rem;
+    display: inline-block;
+    transition: .3s all;
+    font-weight: 500;
+}
+
+.bat-btn-primary {
+    background-color: var(--primary-red);
+    color: var(--white-only);
+}
+
+.bat-btn-secondary {
+    background-color: var(--prussian-blue);
+    color: var(--white);
+}
+
+.bat-btn-warning {
+    background-color: var(--btn-warning);
+    color: var(--prussian-blue);
+}
+
+.bat-btn-danger {
+    background-color: var(--btn-danger);
+    color: var(--white-only);
+}
+
+.bat-btn-success {
+    background-color: var(--btn-success);
+    color: var(--white-only);
+}
+
+.bat-btn-info {
+    background-color: var(--btn-info);
+    color: var(--white-only);
+}
+
+.bat-btn-light {
+    background-color: var(--lighter-primary);
+    color: var(--prussian-blue-only);
+}
+
+.bat-btn-dark {
+    background-color: var(--primary-red-dark);
+    color: var(--white-only);
+}
+
+
+.bat-btn-primary:hover {
+    background-color: var(--primary-red-dark);
+    color: var(--white-only);
+}
+
+.bat-btn-secondary:hover {
+    background-color: var(--prussian-blue);
+    color: var(--white);
+}
+
+.bat-btn-warning:hover {
+    background-color: var(--btn-warning-hover);
+    color: var(--prussian-blue);
+}
+
+.bat-btn-danger:hover {
+    background-color: var(--btn-danger-hover);
+    color: var(--white-only);
+}
+
+.bat-btn-success:hover {
+    background-color: var(--btn-success-hover);
+    color: var(--white-only);
+}
+
+.bat-btn-info:hover {
+    background-color: var(--btn-info-hover);
+    color: var(--white-only);
+}
+
+.bat-btn-light:hover {
+    background-color: var(--btn-light-hover);
+    color: var(--prussian-blue-only);
+}
+
+.bat-btn-dark:hover {
+    background-color: var(--primary-red-dark);
+    color: var(--white-only);
+}
+
+.bat-btn-primary-outlined {
+    color: var(--primary-red);
+    border: 2px solid var(--primary-red);
+}
+
+.bat-btn-secondary-outlined {
+    color: var(--prussian-blue);
+    border: 2px solid var(--prussian-blue);
+}
+
+.bat-btn-warning-outlined {
+    color: var(--btn-warning);
+    border: 2px solid var(--btn-warning);
+}
+
+.bat-btn-danger-outlined {
+    color: var(--btn-danger);
+    border: 2px solid var(--btn-danger);
+}
+
+.bat-btn-success-outlined {
+    color: var(--btn-success);
+    border: 2px solid var(--btn-success);
+}
+
+.bat-btn-info-outlined {
+    color: var(--btn-info);
+    border: 2px solid var(--btn-info);
+}
+
+.bat-btn-light-outlined {
+    color: var(--light-primary);
+    border: 2px solid var(--lighter-primary);
+}
+
+.bat-btn-dark-outlined {
+    color: var(--primary-red-dark);
+    border: 2px solid var(--primary-red-dark);
+}
+
+/* hover outlined */
+
+.bat-btn-primary-outlined:hover {
+    background-color: var(--primary-red);
+    color: var(--white-only);
+}
+
+.bat-btn-secondary-outlined:hover {
+    background-color: var(--prussian-blue);
+    color: var(--white);
+}
+
+.bat-btn-warning-outlined:hover {
+    background-color: var(--btn-warning);
+    color: var(--prussian-blue);
+}
+
+.bat-btn-danger-outlined:hover {
+    background-color: var(--btn-danger);
+    color: var(--white-only);
+}
+
+.bat-btn-success-outlined:hover {
+    background-color: var(--btn-success);
+    color: var(--white-only);
+}
+
+.bat-btn-info-outlined:hover {
+    background-color: var(--btn-info);
+    color: var(--white-only);
+}
+
+.bat-btn-light-outlined:hover {
+    background-color: var(--lighter-primary);
+    color: var(--prussian-blue-only);
+}
+
+.bat-btn-dark-outlined:hover {
+    background-color: var(--primary-red-dark);
+    color: var(--white-only);
+}
+
+.bat-btn-icon {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: var(--powder-blue);
+    padding: 0.75rem;
+    display: inline-block;
+    transition: .3s all;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.bat-btn-disabled {
+    cursor: no-drop;
+    background-color: var(--lighter-primary);
+}
+
+.bat-btn-icon:hover {
+    background-color: var(--btn-icon-hover);
+}
+
+/* with icon */
+.bat-btn-with-icon {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    background-color: var(--primary-red);
+    font-weight: 500;
+    color: var(--white-only);
+}
+
+.bat-btn-with-icon:hover {
+    background-color: var(--primary-red-dark);
+}
+
+/* btn component styling */
+.bat-btn-component {
+    margin: 1rem 0 2rem;
+    border: 1px solid var(--powder-blue);
+    padding: 1rem;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.bat-btn-list {
+    gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}

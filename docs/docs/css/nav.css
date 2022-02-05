@@ -1,5 +1,5 @@
 .bat-nav {
-    background-color: var(--primary-red);
+    background-color: var(--nav-bg);
     padding: 0 0.5rem;
 
 }
@@ -104,12 +104,13 @@ i {
 
 .bat-theme-toggle {
     display: flex;
-    /* display: none; */
     justify-content: center;
     align-items: center;
     padding: 0.25rem;
     border-radius: 50%;
-
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
 }
 
 .bat-theme-toggle:hover {
@@ -154,4 +155,15 @@ i {
         padding: 1rem;
     }
 
+}
+
+@media screen and (max-width: 300px) {
+    nav {
+        font-size: 1.25rem;
+        padding: 0 .25rem;
+    }
+
+    .bat-nav-icon {
+        width: 25px;
+    }
 }
