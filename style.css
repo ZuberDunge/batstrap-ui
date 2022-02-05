@@ -1,2 +1,7 @@
-@import url('./components/alert.css');
-@import url('./components/avatar.css');
+@import url('./Components/alert.css');
+@import url('./Components/avatar.css');
+@import url('./Components/button.css');
+@import url('./Components/card.css');
+@import url('./Components/img-responsive.css');
+@import url('./Components/form.css');
+@import url('./Components/badge.css');
