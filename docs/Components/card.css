@@ -1,14 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 .bat-card {
+    font-family: 'Poppins', sans-serif;
     max-width: 300px;
-    border-radius: 1rem;
     overflow: hidden;
-    padding-bottom: 1rem;
+    padding: 0.5rem;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: .25rem;
+    width: 100%;
+    position: relative;
+}
+
+.bat-card .bat-badge {
+    display: none;
+}
+
+.bat-card.card-with-badge .bat-badge {
+    padding: 0.25rem 0.5rem;
+    font-size: 12px;
+    position: absolute;
+    top: 5%;
+    display: inline-block;
+    left: 10%;
+    background-color: var(--primary-red);
+    color: var(--white-only);
+}
+
+.bat-badge-close {
+    display: none;
+}
+
+.card-with-dis .bat-badge-close {
+    border-radius: 50%;
+    font-size: 26px;
+    position: absolute;
+    display: inline-block;
+    top: 5%;
+    right: 10%;
+    color: var(--white-only);
+}
+
+.bat-card i {
+    font-size: 1.25rem;
+}
+
+.bat-card button {
+    padding: 0.5rem 1rem;
+}
+
+.bat-card img {
+    max-width: 100%;
+    width: 300px;
+}
+
+.bat-card-horizontal.bat-card img {
+    max-width: 100%;
+    width: 150px;
+}
+
+.bat-card-horizontal.bat-card {
+    flex-direction: row;
+    max-width: 500px;
 }
 
 
-.bat-card img {
-    width: 100%;
+
+.bat-card-horizontal.bat-card.card-with-badge .bat-badge {
+
+    left: 5%;
+
+}
+
+@media screen and (max-width: 500px) {
+    .bat-card-horizontal.bat-card button span {
+        display: none;
+    }
 }
