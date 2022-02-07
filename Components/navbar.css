@@ -1,0 +1,40 @@
+.navbar {
+    background-color: var(--primary-red);
+}
+
+.nav-menu button {
+    padding: 0.5rem 1rem;
+    color: var(--primary-red);
+    font-weight: 600;
+}
+
+.nav-menu button:hover {
+    color: var(--primary-red);
+}
+
+.material-icons {
+    cursor: pointer;
+    padding: 0.35rem;
+    border-radius: 50%;
+    transition: .2s all;
+}
+
+.nav-menu .material-icons:hover {
+    background-color: var(--white);
+    color: var(--primary-red);
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    font-family: inherit;
+    padding: 0.5rem;
+    background-color: transparent;
+    width: 30vw;
+    max-width: 600px !important;
+}
+
+.search-bar {
+    background-color: var(--white);
+    color: var(--primary-red);
+}
