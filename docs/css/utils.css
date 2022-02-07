@@ -181,3 +181,7 @@ body .bat-active-btn {
 .bat-primary-clr {
     color: var(--primary-red);
 }
+
+.pointer {
+    cursor: pointer;
+}

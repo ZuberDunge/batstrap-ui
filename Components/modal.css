@@ -1,0 +1,7 @@
+.bat-modal {
+    padding: 1rem;
+    max-width: 500px;
+    margin: auto;
+    width: 100%;
+    background-color: var(--light-primary);
+}
