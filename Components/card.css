@@ -27,9 +27,7 @@
     color: var(--white-only);
 }
 
-.bat-badge-close {
-    display: none;
-}
+
 
 .card-with-dis .bat-badge-close {
     border-radius: 50%;
@@ -39,6 +37,10 @@
     top: 5%;
     right: 10%;
     color: var(--white-only);
+}
+
+.bat-badge-close {
+    display: none;
 }
 
 .bat-card i {
@@ -70,6 +72,25 @@
 
     left: 5%;
 
+}
+
+.bat-overlay-bg {
+    position: absolute;
+    top: 0rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgb(234, 234, 236, 0.6);
+}
+
+.bat-overlay-text {
+    padding: 1rem 2rem;
+    background-color: var(--primary-red);
+    color: var(--white-only);
 }
 
 @media screen and (max-width: 500px) {
