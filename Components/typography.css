@@ -1,0 +1,152 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    margin: 0.5rem 0;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.h1,
+h1 {
+    font-size: 3rem;
+}
+
+.h2,
+h2 {
+    font-size: 2.5rem;
+}
+
+.h3,
+h3 {
+    font-size: 2rem;
+}
+
+.h4,
+h4 {
+    font-size: 1.75rem;
+}
+
+.h5,
+h5 {
+    font-size: 1.5rem;
+}
+
+.h6,
+h6 {
+    font-size: 1.25rem;
+}
+
+p,
+.p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    line-height: 1.5;
+}
+
+
+.bat-text-center {
+    text-align: center;
+}
+
+.bat-text-left {
+    text-align: left;
+}
+
+.bat-text-right {
+    text-align: right;
+}
+
+.bat-line-through {
+    text-decoration: line-through;
+}
+
+.bat-underline {
+    text-decoration: underline;
+}
+
+.bat-fw-700 {
+    font-weight: 700;
+}
+
+.bat-fw-300 {
+    font-weight: 300;
+}
+
+.bat-fw-400 {
+    font-weight: 400;
+}
+
+.bat-fw-900 {
+    font-weight: 900;
+}
+
+.bat-fw-500 {
+    font-weight: 500;
+}
+
+.bat-fw-600 {
+    font-weight: 600;
+}
+
+.bat-warning-text {
+    color: var(--alert-warning);
+}
+
+.bat-success-text {
+    color: var(--alert-success);
+}
+
+.bat-error-text {
+    color: var(--alert-error);
+}
+
+.bat-primary-text {
+    color: var(--primary-red);
+}
+
+.bat-danger-text {
+    color: var(--alert-danger);
+}
+
+@media screen and (max-width: 768px) {
+
+    .h1,
+    h1 {
+        font-size: 2rem;
+    }
+
+    .h2,
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    .h3,
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .h4,
+    h4 {
+        font-size: 1.25rem;
+    }
+
+
+    .h5,
+    h5 {
+        font-size: 1rem;
+    }
+
+    .h6,
+    h6 {
+        font-size: .75rem;
+    }
+}
