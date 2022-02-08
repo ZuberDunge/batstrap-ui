@@ -65,3 +65,11 @@ batDismiss.forEach(e => {
         parentAlert.style.display = "none";
     })
 })
+
+document.querySelector("#modal-demo").addEventListener("click", () => {
+    document.querySelector(".bat-modal").classList.add("bat-modal-show")
+})
+
+document.querySelector("#close-modal").addEventListener("click", () => {
+    document.querySelector(".bat-modal").classList.remove("bat-modal-show")
+})

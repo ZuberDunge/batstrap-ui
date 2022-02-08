@@ -99,10 +99,46 @@
             magni assumenda eaque aut!
           </div>
           <div class="bat-border-1 bat-m-tb-2r bat-pad-1">
-            <div class="bat-modal">MODAl</div>
+            <div class="bat-modal bat-pad-1">
+              <span id="close-modal" class="material-icons"> close </span>
+              <div class="bat-modal-title">Log In</div>
+              <label for="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                placeholder="Enter Registered Email"
+              />
+              <label for="password">Password</label>
+              <input
+                type="password"
+                name="password"
+                placeholder="Enter Password"
+              />
+              <button class="bat-btn bat-br-3px bat-btn-primary">Log In</button>
+              <p>First time? <span>Sign Up</span></p>
+            </div>
+
+            <button id="modal-demo" class="bat-btn bat-br-3px bat-btn-primary">
+              Live Demo
+            </button>
             <div class="bat-link-area bat-m-tb-2r">
               <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%28205%2C55%2C55%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=320&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522bat-input%2522%2520placeholder%253D%2522Simple%2520Input%2522%2520%252F%253E%250A%250A%253Ctextarea%2520type%253D%2522text%2522%2520class%253D%2522bat-text-area%2522%2520placeholder%253D%2522Simple%2520Input%2522%253E%253C%252Ftextarea%253E%250A%250A%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522bat-input%2522%2520placeholder%253D%2522Simple%2520Input%2522%2520disabled%2520%252F%253E"
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=sharp&l=auto&width=579&ds=true&dsyoff=8px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522bat-modal%2520bat-pad-1%2522%253E%250A%2520%2520%253Cspan%2520id%253D%2522close-modal%2522%2520class%253D%2522material-icons%2522%253E%2520close%2520%253C%252Fspan%253E%250A%2520%2520%253Cdiv%2520class%253D%2522bat-modal-title%2522%253E%2520Log%2520In%2520%253C%252Fdiv%253E%250A%2520%2520%253Clabel%2520for%253D%2522email%2522%253E%2520Email%2520%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520type%253D%2522email%2522%2520name%253D%2522email%2522%2520placeholder%253D%2522Enter%2520Registered%2520Email%2522%2520%252F%253E%250A%2520%2520%253Clabel%2520for%253D%2522password%2522%253E%2520Password%2520%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520type%253D%2522password%2522%2520name%253D%2522password%2522%2520placeholder%253D%2522Enter%2520Password%2522%2520%252F%253E%250A%2520%2520%253Cbutton%2520class%253D%2522bat-btn%2520bat-br-3px%2520bat-btn-primary%2522%253E%2520Log%2520In%2520%253C%252Fbutton%253E%250A%2520%2520%253Cp%253EFirst%2520time%253F%2520%253Cspan%253E%2520Sign%2520Up%2520%253C%252Fspan%253E%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+                style="
+                  width: 100%;
+                  height: auto;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: scroll;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+            <div class="fs-1-5r bold-600 bat-pad-tb-1">JS</div>
+            <div class="bat-link-area bat-m-tb-2r">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=sharp&l=auto&width=579&ds=true&dsyoff=8px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=openModal.addEventListener%28%2522click%2522%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520document.querySelector%28%2522.bat-modal%2522%29.classList.add%28%2522bat-modal-show%2522%29%250A%257D%29%250A%250AcloseModal.addEventListener%28%2522click%2522%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520document.querySelector%28%2522.bat-modal%2522%29.classList.remove%28%2522bat-modal-show%2522%29%250A%257D%29"
                 style="
                   width: 100%;
                   height: auto;
