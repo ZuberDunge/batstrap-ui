@@ -1,4 +1,4 @@
-.bat-modal {
+#bat-modal {
     padding: 1rem;
     max-width: 500px;
     margin: auto;
@@ -9,7 +9,7 @@
     flex-direction: column;
     gap: 0.5rem;
     border-radius: 5px;
-    position: absolute;
+    position: fixed;
     top: -100%;
     right: 0;
     left: 0;
@@ -18,7 +18,24 @@
     width: 90%;
 }
 
-.bat-modal-show {
+.bat-modal {
+    padding: 1rem;
+    max-width: 500px;
+    position: static;
+    margin: auto;
+    width: 100%;
+    background-color: var(--white-only);
+    border: 1px solid var(--light-primary);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border-radius: 5px;
+    box-shadow: 2.3px 4.6px 4.6px hsl(0deg 0% 0% / 0.43);
+    transition: .5s all;
+    width: 90%;
+}
+
+#bat-modal.bat-modal-show {
     transition: .5s all;
     top: 50%;
     left: 50%;
@@ -58,6 +75,29 @@
     color: var(--primary-red);
     font-weight: 500;
 }
+
+
+#bat-modal input {
+    padding: 0.5rem;
+}
+
+#bat-modal button {
+    margin: 1rem auto;
+}
+
+#bat-modal p {
+    margin-top: 1rem;
+    color: var(--prussian-blue-only);
+    text-align: center;
+    font-size: 12px;
+}
+
+#bat-modal p span {
+    color: var(--primary-red);
+    font-weight: 500;
+}
+
+
 
 #close-modal {
     color: var(--primary-red);
