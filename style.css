@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 @import url('./Components/alert.css');
 @import url('./Components/avatar.css');
@@ -12,3 +13,5 @@
 @import url("./Components/toast.css");
 @import url('./Components/slider.css');
 @import url('./Components/grid.css');
+@import url('./Components/typography.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
