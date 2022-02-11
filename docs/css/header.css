@@ -1,0 +1,162 @@
+.bat-header {
+    max-width: 1200px;
+    margin: 2rem auto 5rem;
+}
+
+.bat-hero-container img {
+    max-width: 450px;
+    display: block;
+    margin: auto;
+}
+
+.bat-hero-container {
+    margin: auto;
+}
+
+.bat-intro h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.bat-tagline {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.bat-info-section {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--celadon-blue);
+    max-width: 500px;
+    margin: 1rem auto;
+}
+
+/* btn effec */
+#bat-btn-arrow {
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0 1rem;
+}
+
+#bat-btn-arrow button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+#bat-btn-arrow button.learn-more {
+    width: 12rem;
+    height: auto;
+    box-sizing: border-box;
+}
+
+#bat-btn-arrow button.learn-more .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    box-sizing: border-box;
+    width: 3rem;
+    height: 3rem;
+    background: var(--primary-red);
+    border-radius: 1.625rem;
+}
+
+#bat-btn-arrow button.learn-more .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    box-sizing: border-box;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: var(--honeydew);
+}
+
+#bat-btn-arrow button.learn-more .circle .icon.arrow-new {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    box-sizing: border-box;
+    height: 0.125rem;
+    background: none;
+}
+
+#bat-btn-arrow button.learn-more .circle .icon.arrow-new::before {
+    position: absolute;
+    content: '';
+    top: -0.25rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    box-sizing: border-box;
+    height: 0.625rem;
+    border-top: 0.125rem solid var(--white-only);
+    border-right: 0.125rem solid var(--white-only);
+    transform: rotate(45deg);
+}
+
+#bat-btn-arrow button.learn-more .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: var(--prussian-blue);
+    font-weight: 600;
+    line-height: 1.6;
+    text-align: center;
+    /* text-transform: uppercase; */
+}
+
+#bat-btn-arrow button:hover .circle {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#bat-btn-arrow button:hover .circle .icon.arrow {
+    background: var(--white);
+    box-sizing: border-box;
+    transform: translate(1rem, 0);
+}
+
+#bat-btn-arrow button:hover .button-text {
+    box-sizing: border-box;
+    color: var(--white);
+}
+
+@media screen and (max-width: 700px) {
+    header {
+        margin: 2rem auto 4rem;
+        padding: 0 0.5rem;
+    }
+
+    .bat-hero-container img {
+        max-width: 350px;
+    }
+
+    .bat-intro h1 {
+        font-size: 2.5rem;
+    }
+
+    .bat-tagline {
+        font-size: 1.25rem;
+    }
+
+    .bat-info-section {
+        font-size: 1rem;
+    }
+}

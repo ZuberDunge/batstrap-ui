@@ -1,0 +1,187 @@
+.bat-primary-color {
+    color: var(--primary-red);
+}
+
+.bat-mar-auto {
+    margin: auto;
+}
+
+.bat-flex {
+    display: flex;
+}
+
+.flex-gap-1 {
+    gap: 1rem;
+}
+
+.flex-gap-2 {
+    gap: 2rem;
+}
+
+.bat-flx-dir-col {
+    flex-direction: column;
+}
+
+.bat-justify-center {
+    justify-content: center;
+}
+
+.bat-align-center {
+    align-items: center;
+}
+
+.bat-justify-evenly {
+    justify-content: space-evenly;
+}
+
+.bat-justify-between {
+    justify-content: space-between;
+}
+
+.bat-flex-wrap {
+    flex-wrap: wrap;
+}
+
+.bat-list-non-bullets {
+    list-style-type: none;
+}
+
+
+.bold-600 {
+    font-weight: 600;
+}
+
+.bold-500 {
+    font-weight: 500;
+}
+
+.bat-fs-1r {
+    font-size: 16px;
+}
+
+.fs-1-5r {
+    font-size: 1.5rem;
+}
+
+.fs-2r {
+    font-size: 2rem;
+}
+
+.bat-mxw-1200 {
+    max-width: 1200px;
+    width: 100%;
+}
+
+.bat-pad-1 {
+    padding: 1rem;
+}
+
+.bat-pad-tb-1 {
+    padding: 1rem 0;
+}
+
+.bat-pad-8px {
+    padding: 0.5rem;
+}
+
+.bat-pad-tb-8px {
+    padding: 0.5rem 0;
+}
+
+.bat-txt-center {
+    text-align: center;
+}
+
+.bat-fs-14px {
+    font-size: 14px;
+}
+
+.bat-pad-8px {
+    padding: 0.5rem;
+}
+
+body .bat-active-btn {
+    font-weight: 600 !important;
+    opacity: 1 !important;
+    border-bottom: 2px solid var(--primary-red) !important;
+    padding-bottom: 0.5rem;
+    padding-right: 1rem;
+}
+
+.bat-m-tb-2r {
+    margin: 2rem 0;
+}
+
+.bat-br-50 {
+    border-radius: 50%;
+}
+
+.bat-flow-hd {
+    overflow: hidden;
+}
+
+.bat-fs-10px {
+    font-size: 10px;
+}
+
+.bat-fs-20px {
+    font-size: 20px;
+}
+
+.bat-fs-40px {
+    font-size: 40px;
+}
+
+.bat-fs-60px {
+    font-size: 60px;
+}
+
+.bat-fs-80px {
+    font-size: 80px;
+}
+
+/* border radius */
+.bat-br-3px {
+    border-radius: 3px;
+}
+
+.bat-br-5px {
+    border-radius: 5px;
+}
+
+.bat-br-10px {
+    border-radius: 10px;
+}
+
+.bat-br-15px {
+    border-radius: 10px;
+}
+
+.bat-br-20px {
+    border-radius: 20px;
+}
+
+.bat-border-1 {
+    border: 1px solid var(--powder-blue);
+}
+
+.bat-m-r-8px {
+    margin-right: 0.5rem
+}
+
+.bat-line-through {
+    text-decoration: line-through;
+    opacity: .7;
+}
+
+.bat-fs-12px {
+    font-size: 12px
+}
+
+.bat-primary-clr {
+    color: var(--primary-red);
+}
+
+.pointer {
+    cursor: pointer;
+}
