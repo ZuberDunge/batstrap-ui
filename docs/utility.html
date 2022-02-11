@@ -100,15 +100,15 @@
               <button><a href="./navbaar.html">Navbar</a></button>
             </li>
             <li>
-              <button><a href="./rating.html">Ratings</a></button>
+              <button class="bat-active-btn">
+                <a href="./rating.html">Ratings</a>
+              </button>
             </li>
             <li>
               <button><a href="./slider.html">Slider</a></button>
             </li>
             <li>
-              <button class="bat-active-btn">
-                <a href="./toast.html">Toast</a>
-              </button>
+              <button><a href="./toast.html">Toast</a></button>
             </li>
             <li>
               <button><a href="./typography.html">Typography</a></button>
@@ -119,68 +119,33 @@
           </ul>
         </div>
         <div class="bat-content bat-pad-1">
-          <div class="fs-2r bold-600 bat-pad-tb-1">Toast</div>
-          <div class="bat-fs-1r">Display a toast with the Alert.</div>
-          <div class="bat-border-1 bat-m-tb-2r bat-pad-1">
-            <div class="bat-toast">
-              <div>Can't send photo right now.</div>
-              <div class="bat-retry">
-                RETRY <span class="material-icons"> close </span>
-              </div>
-            </div>
-            <div id="bat-toast">
-              <div>Can't send photo right now.</div>
-              <div class="bat-retry">
-                RETRY
-                <span id="close-toast" class="material-icons"> close </span>
-              </div>
-            </div>
-            <button
-              id="toast-demo"
-              class="bat-btn bat-flex bat-justify-center bat-br-3px bat-btn-primary"
-            >
-              Live Demo
-            </button>
-            <div class="bat-link-area bat-m-tb-2r">
-              <iframe
-                src="https://carbon.now.sh/embed/T7rWFzgnZCdPkIN2xaAf"
-                style="
+          <div class="fs-2r bold-600 bat-pad-tb-1">Utility</div>
+          <div class="bat-fs-1r">
+            under Development
+            <div class="bat-border-1 bat-m-tb-2r bat-pad-1">
+              <div class="bat-link-area bat-m-tb-2r">
+                <!-- <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=sharp&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cspan%2520class%253D%2522rating%2520fa%2520fa-star%2520checked%2522%253E%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522rating%2520fa%2520fa-star%2520checked%2522%253E%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522rating%2520fa%2520fa-star%2520checked%2522%253E%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522rating%2520fa%2520fa-star%2522%253E%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522rating%2520fa%2520fa-star%2522%253E%253C%252Fspan%253E"
+                      style="
                   width: 100%;
                   height: auto;
                   border: 0;
                   transform: scale(1);
                   overflow: scroll;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
+                " sandbox="allow-scripts allow-same-origin">
+                        </iframe> -->
+              </div>
             </div>
-            <div class="fs-2r bold-600 bat-pad-tb-1">JavaScript</div>
-            <div class="bat-link-area bat-m-tb-2r">
-              <iframe
-                src="https://carbon.now.sh/embed/T7rWFzgnZCdPkIN2xaAf"
-                style="
-                  width: 100%;
-                  height: auto;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: scroll;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
-            </div>
-          </div>
-
-          <div class="bat-pre-next-btns">
-            <div>
-              <i class="fas fa-chevron-left"></i>
-              <a href="slider.html">Slider</a>
-            </div>
-            <div>
-              <a href="typography.html"
-                >Typography <i class="fas fa-chevron-right"></i
-              ></a>
+            <div class="bat-pre-next-btns">
+              <div>
+                <i class="fas fa-chevron-left"></i>
+                <a href="typography.html">Typography</a>
+              </div>
+              <div>
+                <a href="./../index.html"
+                  >Home <i class="fas fa-chevron-right"></i
+                ></a>
+              </div>
             </div>
           </div>
         </div>
@@ -261,18 +226,7 @@
         </div>
       </footer>
     </div>
-    <script>
-      document.querySelector("#toast-demo").addEventListener("click", () => {
-        document.querySelector("#bat-toast").style.display = "flex";
-        setTimeout(() => {
-          document.querySelector("#bat-toast").style.display = "none";
-        }, 3000);
-      });
 
-      document.querySelector("#close-toast").addEventListener("click", () => {
-        document.querySelector("#bat-toast").style.display = "none";
-      });
-    </script>
     <script src="./js/app.js"></script>
   </body>
 </html>

@@ -27,7 +27,7 @@
                 <a href="./../get-started.html">Docs</a>
               </li>
               <li>
-                <a href="https://github.com/ZuberDunge/batstrap-ui/"
+                 <a href="https://github.com/ZuberDunge/batstrap-ui/"
                   >Contribute <i class="fab fa-github"></i
                 ></a>
               </li>
@@ -79,7 +79,7 @@
               <button><a href="./card.html">Card</a></button>
             </li>
             <li>
-              <button><a href="./carousel.html">Carousel</a></button>
+              <button class="bat-active-btn"><a href="./carousel.html">Carousel</a></button>
             </li>
             <li>
               <button><a href="./grid.html">Grid</a></button>
@@ -106,9 +106,7 @@
               <button><a href="./slider.html">Slider</a></button>
             </li>
             <li>
-              <button class="bat-active-btn">
-                <a href="./toast.html">Toast</a>
-              </button>
+              <button><a href="./toast.html">Toast</a></button>
             </li>
             <li>
               <button><a href="./typography.html">Typography</a></button>
@@ -117,33 +115,43 @@
               <button><a href="./Utility.html">Utility</a></button>
             </li>
           </ul>
+          
         </div>
         <div class="bat-content bat-pad-1">
-          <div class="fs-2r bold-600 bat-pad-tb-1">Toast</div>
-          <div class="bat-fs-1r">Display a toast with the Alert.</div>
+          <div class="fs-2r bold-600 bat-pad-tb-1">Carousel</div>
+          <div class="bat-fs-1r">
+            A slideshow component for cycling through elements—images or slides of text—like a carousel.
+          </div>
           <div class="bat-border-1 bat-m-tb-2r bat-pad-1">
-            <div class="bat-toast">
-              <div>Can't send photo right now.</div>
-              <div class="bat-retry">
-                RETRY <span class="material-icons"> close </span>
-              </div>
-            </div>
-            <div id="bat-toast">
-              <div>Can't send photo right now.</div>
-              <div class="bat-retry">
-                RETRY
-                <span id="close-toast" class="material-icons"> close </span>
-              </div>
-            </div>
-            <button
-              id="toast-demo"
-              class="bat-btn bat-flex bat-justify-center bat-br-3px bat-btn-primary"
-            >
-              Live Demo
-            </button>
+          
+<div class="bat-slider">
+    <div id="bat-slider-item">      
+          <img
+          src="https://www.dccomics.com/sites/default/files/BM_Cv119_var_11921_DIGITAL_61d75399d57db8.08186915.jpg"
+          alt=""/>
+          <img
+          src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/im2020020_cov.jpg"
+          alt=""/>
+          <img
+          src="https://www.dccomics.com/sites/default/files/BM_Cv119_var_11921_DIGITAL_61d75399d57db8.08186915.jpg"
+          alt=""/>
+          <img
+          src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/im2020020_cov.jpg"
+          alt=""/>
+      </div>
+      <div class="bat-dot">
+        <span id="btn1" class="active"></span>
+        <span id="btn2"></span>
+        <span id="btn3"></span>
+        <span id="btn4"></span>
+      </div>
+    </div>
+   
+    </div>
             <div class="bat-link-area bat-m-tb-2r">
               <iframe
-                src="https://carbon.now.sh/embed/T7rWFzgnZCdPkIN2xaAf"
+             
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=sharp&l=auto&width=579&ds=true&dsyoff=8px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522bat-slider%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520id%253D%2522bat-slider-item%2522%253E%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522batman.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522IronMan.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522batmanjpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522IronMan.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522%2522%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522bat-dot%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520id%253D%2522btn1%2522%2520class%253D%2522active%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520id%253D%2522btn2%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520id%253D%2522btn3%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520id%253D%2522btn4%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
                 style="
                   width: 100%;
                   height: auto;
@@ -154,35 +162,18 @@
                 sandbox="allow-scripts allow-same-origin"
               >
               </iframe>
-            </div>
-            <div class="fs-2r bold-600 bat-pad-tb-1">JavaScript</div>
-            <div class="bat-link-area bat-m-tb-2r">
-              <iframe
-                src="https://carbon.now.sh/embed/T7rWFzgnZCdPkIN2xaAf"
-                style="
-                  width: 100%;
-                  height: auto;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: scroll;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
-            </div>
+            </div><div class="bat-pre-next-btns">
+                <div>
+                  <i class="fas fa-chevron-left"></i>
+                  <a href="card.html">Card</a>
+                </div>
+                <div>
+                  <a href="./grid.html">Grid <i class="fas fa-chevron-right"></i></a>
+                </div>
+              </div>
           </div>
 
-          <div class="bat-pre-next-btns">
-            <div>
-              <i class="fas fa-chevron-left"></i>
-              <a href="slider.html">Slider</a>
-            </div>
-            <div>
-              <a href="typography.html"
-                >Typography <i class="fas fa-chevron-right"></i
-              ></a>
-            </div>
-          </div>
+          
         </div>
       </div>
 
@@ -261,18 +252,6 @@
         </div>
       </footer>
     </div>
-    <script>
-      document.querySelector("#toast-demo").addEventListener("click", () => {
-        document.querySelector("#bat-toast").style.display = "flex";
-        setTimeout(() => {
-          document.querySelector("#bat-toast").style.display = "none";
-        }, 3000);
-      });
-
-      document.querySelector("#close-toast").addEventListener("click", () => {
-        document.querySelector("#bat-toast").style.display = "none";
-      });
-    </script>
     <script src="./js/app.js"></script>
   </body>
 </html>
