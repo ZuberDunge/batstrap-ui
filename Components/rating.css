@@ -1,0 +1,7 @@
+.rating {
+    color: var(--powder-blue);
+}
+
+.rating.checked {
+    color: var(--primary-red)
+}
