@@ -36,5 +36,5 @@
 }
 
 .active {
-    background: #ffff !important;
+    background: var(--white-only);
 }

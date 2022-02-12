@@ -11,9 +11,8 @@
 @import url('./Components/modal.css');
 @import url('./Components/navbar.css');
 @import url("./Components/toast.css");
-@import url('./Components/slider.css');
+@import url('./Components/carousel.css');
 @import url('./Components/grid.css');
 @import url('./Components/list.css');
 @import url('./Components/rating.css');
 @import url('./Components/typography.css');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
