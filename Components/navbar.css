@@ -31,7 +31,7 @@
     padding: 0.5rem;
     background-color: transparent;
     width: 25vw;
-    max-width: 600px !important;
+    max-width: 600px;
 }
 
 .search-bar {
