@@ -1,0 +1,46 @@
+.bat-badge {
+    position: relative;
+}
+
+.bat-badge img {
+    border-radius: 50%;
+}
+
+.bat-badge-online {
+    position: absolute;
+    display: block;
+    bottom: 5%;
+    left: 75%;
+    height: 25%;
+    width: 25%;
+    border-radius: 50%;
+    border: 2px solid var(--white-only);
+    background-color: var(--primary-red);
+
+
+}
+
+.bat-badge-icon {
+    position: relative;
+
+}
+
+.bat-badge-icon .bat-badge-online {
+    position: absolute;
+    display: block;
+    top: -5%;
+    left: 60%;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background-color: var(--primary-red);
+    border: 2px solid var(--white-only);
+}
+
+.bat-badge-container .badge-text {
+    padding: 0.25rem 0.5rem;
+    font-size: 75%;
+    background-color: var(--primary-red);
+    border-radius: 10px;
+    color: var(--white-only);
+}

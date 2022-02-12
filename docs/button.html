@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <title>BatsrtapUI</title>
+  </head>
+
+  <body>
+    <div class="bat-app">
+      <div class="bat-nav">
+        <nav>
+          <a href="./../index.html">
+            <div class="bat-logo"><i class="fad fa-bat"></i> BatstrapUI</div></a
+          >
+          <div class="bat-menu">
+            <ul id="bat-menu-list">
+              <li><a href="./../index.html">Home</a></li>
+              <li class="bat-active">
+                <a href="./../get-started.html">Docs</a>
+              </li>
+              <li>
+                <a href="https://github.com/ZuberDunge/batstrap-ui/"
+                  >Contribute <i class="fab fa-github"></i
+                ></a>
+              </li>
+            </ul>
+            <div class="bat-theme-toggle">
+              <i id="toggle-i-icon" class="toggle-i-icon fas fa-moon"></i>
+            </div>
+          </div>
+          <div id="bat-menu-icon">
+            <div class="bat-nav-icon">
+              <div></div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="bat-pad-tb-1 bat-side-menu-icon">
+        Menu <i class="fas fa-angle-double-right"></i>
+      </div>
+      <div class="bat-grid-docs bat-mar-auto bat-mxw-1200">
+        <div class="bat-sidebar bat-pad-1">
+          <div class="bat-fs-1r bold-600">
+            <a href="./../get-started.html"> Get Started</a>
+          </div>
+          <ul class="bat-comp-list bat-fs-14px">
+            <li>
+              <a href="./../get-started.html"> <button>Installation</button></a>
+            </li>
+            <li>
+              <a href="./../get-started.html">
+                <button>Starter Template</button></a
+              >
+            </li>
+          </ul>
+          <div class="bat-fs-1r bold-600 bat-pad-tb-8px">Components</div>
+
+          <ul class="bat-comp-list bat-">
+            <li>
+              <button><a href="./alert.html"> Alert</a></button>
+            </li>
+            <li>
+              <button><a href="./avatar.html">Avatar</a></button>
+            </li>
+            <li>
+              <button><a href="./badge.html">Badge</a></button>
+            </li>
+            <li>
+              <button class="bat-active-btn">
+                <a href="./button.html">Button</a>
+              </button>
+            </li>
+            <li>
+              <button><a href="./card.html">Card</a></button>
+            </li>
+            <li>
+              <button><a href="./carousel.html">Carousel</a></button>
+            </li>
+            <li>
+              <button><a href="./grid.html">Grid</a></button>
+            </li>
+            <li>
+              <button><a href="./image-responsive.html">Images</a></button>
+            </li>
+            <li>
+              <button><a href="./form.html">Input</a></button>
+            </li>
+            <li>
+              <button><a href="./List.html">List</a></button>
+            </li>
+            <li>
+              <button><a href="./Modal.html">Moadal</a></button>
+            </li>
+            <li>
+              <button><a href="./navbaar.html">Navbar</a></button>
+            </li>
+            <li>
+              <button><a href="./rating.html">Ratings</a></button>
+            </li>
+            <li>
+              <button><a href="./slider.html">Slider</a></button>
+            </li>
+            <li>
+              <button><a href="./toast.html">Toast</a></button>
+            </li>
+            <li>
+              <button><a href="./typography.html">Typography</a></button>
+            </li>
+            <li>
+              <button><a href="./Utility.html">Utility</a></button>
+            </li>
+          </ul>
+        </div>
+        <div class="bat-content bat-pad-1">
+          <div class="fs-2r bold-600 bat-pad-tb-1">Buttons</div>
+          <div class="bat-fs-1r">
+            Use Batstrap’s custom button styles for actions in forms, dialogs,
+            and more with support for multiple sizes, states, and more.
+          </div>
+          <div class="bat-btn-component">
+            <div class="fs-1-5r bold-500">Simple Buttons</div>
+            <div class="bat-btn-list">
+              <button class="bat-btn bat-br-3px bat-btn-primary">
+                Primary
+              </button>
+              <button class="bat-btn bat-br-3px bat-btn-secondary">
+                Secondary
+              </button>
+              <button class="bat-btn bat-br-3px bat-btn-disabled" disabled>
+                Disabled
+              </button>
+              <button class="bat-btn bat-br-3px bat-btn-success">
+                Success
+              </button>
+              <button class="bat-btn bat-br-3px bat-btn-danger">Danger</button>
+              <button class="bat-btn bat-br-3px bat-btn-warning">
+                Warning
+              </button>
+              <button class="bat-btn bat-br-3px bat-btn-info">Info</button>
+              <button class="bat-btn bat-br-3px bat-btn-light">Light</button>
+              <button class="bat-btn bat-br-3px bat-btn-dark">Dark</button>
+            </div>
+            <div class="bat-link-area">
+              <iframe
+                name="iframe1"
+                id="iframe1"
+                src="https://carbon.now.sh/embed?bg=rgba%28205%2C55%2C55%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=655&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522bat-btn%2520bat-br-3px%2520bat-btn-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522bat-btn%2520bat-br-3px%2520bat-btn-secondary%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522bat-btn%2520bat-br-3px%2520bat-btn-disabled%2522%2520disabled%253EDisabled%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522bat-btn%2520bat-br-3px%2520bat-btn-success%2522%253ESuccess%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522bat-btn%2520bat-br-3px%2520bat-btn-danger%2522%253EDanger%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522bat-btn%2520bat-br-3px%2520bat-btn-warning%2522%253EWarning%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522bat-btn%2520bat-br-3px%2520bat-btn-info%2522%253EInfo%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522bat-btn%2520bat-br-3px%2520bat-btn-light%2522%253ELight%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522bat-btn%2520bat-br-3px%2520bat-btn-dark%2522%253EDark%253C%252Fbutton%253E"
+                style="
+                  width: 100%;
+                  height: auto;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: scroll;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <div class="bat-btn-component">
+            <div class="fs-1-5r bold-500">Outlined Buttons</div>
+            <div class="bat-btn-list">
+              <button class="bat-btn bat-br-3px bat-btn-primary-outlined">
+                Primary
+              </button>
+              <button class="bat-btn bat-br-3px bat-btn-secondary-outlined">
+                Secondary
+              </button>
+              <button class="bat-btn bat-br-3px bat-btn-success-outlined">
+                Success
+              </button>
+              <button class="bat-btn bat-br-3px bat-btn-danger-outlined">
+                Danger
+              </button>
+              <button class="bat-btn bat-br-3px bat-btn-warning-outlined">
+                Warning
+              </button>
+              <button class="bat-btn bat-br-3px bat-btn-info-outlined">
+                Info
+              </button>
+              <button class="bat-btn bat-br-3px bat-btn-light-outlined">
+                Light
+              </button>
+              <button class="bat-btn bat-br-3px bat-btn-dark-outlined">
+                Dark
+              </button>
+            </div>
+            <div class="bat-link-area">
+              <iframe
+                name="iframe1"
+                id="iframe1"
+                src="https://carbon.now.sh/embed?bg=rgba%28205%2C55%2C55%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=655&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522bat-btn%2520bat-br-3px%2520bat-btn-primary-outlined%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522bat-btn%2520bat-br-3px%2520bat-btn-secondary-outlined%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522bat-btn%2520bat-br-3px%2520bat-btn-success-outlined%2522%253ESuccess%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522bat-btn%2520bat-br-3px%2520bat-btn-danger-outlined%2522%253EDanger%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522bat-btn%2520bat-br-3px%2520bat-btn-warning-outlined%2522%253EWarning%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522bat-btn%2520bat-br-3px%2520bat-btn-info-outlined%2522%253EInfo%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522bat-btn%2520bat-br-3px%2520bat-btn-light-outlined%2522%253ELight%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522bat-btn%2520bat-br-3px%2520bat-btn-dark-outlined%2522%253EDark%253C%252Fbutton%253E%250A"
+                style="
+                  width: 100%;
+                  height: auto;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: scroll;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <hr />
+          <div class="bat-btn-component">
+            <div class="fs-1-5r bold-500">Buttons with Icon</div>
+            <div class="bat-btn-list">
+              <button class="bat-btn bat-br-3px bat-btn-with-icon">
+                <i class="fas fa-cart-plus"></i> Add to Cart
+              </button>
+              <button class="bat-btn bat-br-3px bat-btn-with-icon">
+                <i class="fas fa-shopping-cart"></i> Go to Cart
+              </button>
+              <button class="bat-btn bat-br-3px bat-btn-with-icon">
+                <i class="fas fa-download"></i> Download
+              </button>
+              <button class="bat-btn bat-br-3px bat-btn-with-icon">
+                <i class="fas fa-upload"></i> Upload
+              </button>
+              <button class="bat-btn bat-br-3px bat-btn-with-icon">
+                <i class="fas fa-save"></i> Save
+              </button>
+              <button class="bat-btn bat-br-3px bat-btn-with-icon">
+                <i class="fas fa-trash"></i> Delete
+              </button>
+            </div>
+            <div class="bat-link-area">
+              <iframe
+                name="iframe1"
+                id="iframe1"
+                src="https://carbon.now.sh/embed?bg=rgba%28205%2C55%2C55%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=655&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522bat-btn%2520bat-br-3px%2520bat-btn-with-icon%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-cart-plus%2522%253E%253C%252Fi%253E%2520Add%2520to%2520Cart%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522bat-btn%2520bat-br-3px%2520bat-btn-with-icon%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%2520Go%2520to%2520Cart%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522bat-btn%2520bat-br-3px%2520bat-btn-with-icon%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-download%2522%253E%253C%252Fi%253E%2520Download%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522bat-btn%2520bat-br-3px%2520bat-btn-with-icon%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-upload%2522%253E%253C%252Fi%253E%2520Upload%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522bat-btn%2520bat-br-3px%2520bat-btn-with-icon%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-save%2522%253E%253C%252Fi%253E%2520Save%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522bat-btn%2520bat-br-3px%2520bat-btn-with-icon%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-trash%2522%253E%253C%252Fi%253E%2520Delete%250A%253C%252Fbutton%253E%250A"
+                style="
+                  width: 100%;
+                  height: auto;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: scroll;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+          <div class="fs-1r bold-500">
+            You can customize the border-raduis by removing the
+            <code> bat-br-3px </code> class. Try <code> bat-br-5px </code>
+            <code> bat-br-10px </code>
+          </div>
+
+          <div class="bat-btn-component">
+            <div class="fs-1-5r bold-500">Floating Buttons</div>
+            <div class="bat-btn-list">
+              <button class="bat-btn-icon">
+                <i class="fas fa-cart-plus"></i>
+              </button>
+              <button class="bat-btn-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </button>
+              <button class="bat-btn-icon">
+                <i class="fas fa-download"></i>
+              </button>
+              <button class="bat-btn-icon">
+                <i class="fas fa-upload"></i>
+              </button>
+              <button class="bat-btn-icon">
+                <i class="fas fa-save"></i>
+              </button>
+              <button class="bat-btn-icon">
+                <i class="fas fa-trash"></i>
+              </button>
+            </div>
+            <div class="bat-link-area">
+              <iframe
+                name="iframe1"
+                id="iframe1"
+                src="https://carbon.now.sh/embed?bg=rgba%28205%2C55%2C55%2C1%29&t=one-light&wt=sharp&l=htmlmixed&width=655&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522bat-btn-icon%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-cart-plus%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522bat-btn-icon%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522bat-btn-icon%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-download%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522bat-btn-icon%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-upload%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522bat-btn-icon%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-save%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522bat-btn-icon%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-trash%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E"
+                style="
+                  width: 100%;
+                  height: auto;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: scroll;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+          <div class="fs-1r bold-500">
+            To change color/bg/size just add a class and apply styling in your
+            css.
+          </div>
+          <div class="bat-pre-next-btns">
+            <div>
+              <i class="fas fa-chevron-left"></i>
+              <a href="badge.html">Badge</a>
+            </div>
+            <div>
+              <a href="card.html">Card <i class="fas fa-chevron-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="bat-footer">
+        <div class="bat-footer-component">
+          <div class="bat-footer-social">
+            <ul class="bat-footer-nav">
+              <li class="bold-600">Navigation</li>
+              <li>
+                <a href="./../index.html"> Home</a>
+              </li>
+              <li>Docs</li>
+            </ul>
+            <div class="bold-600">Social</div>
+            <div>
+              <ul
+                class="bat-flex flex-gap-1 bat-social-links bat-list-non-bullets"
+              >
+                <li class="bat-icon-social">
+                  <a class="link" href="https://github.com/ZuberDunge">
+                    <i class="fab fa-github social"></i
+                  ></a>
+                </li>
+                <li class="bat-icon-social">
+                  <a class="link" href="https://www.instagram.com/zuberdunge/">
+                    <i class="fab fa-instagram social"></i
+                  ></a>
+                </li>
+                <li class="bat-icon-social">
+                  <a
+                    class="link"
+                    href="https://www.linkedin.com/in/zuberdunge/"
+                  >
+                    <i class="fab fa-linkedin-in social"></i
+                  ></a>
+                </li>
+                <li class="bat-icon-social">
+                  <a class="link" href="https://www.twitter.com/zuberdunge/">
+                    <i class="fab fa-twitter social"></i
+                  ></a>
+                </li>
+                <li class="bat-icon-social">
+                  <a class="link" href="mailto:iamZuberDunge@gmail.com">
+                    <i class="fas fa-envelope social"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <a href="https://zuberdunge.tech">
+                Designed with 💕 By
+                <span class="bat-zub-ftr-link">
+                  Zuber Dunge
+                  <i class="fas fa-external-link-alt"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="bat-footer-social">
+            <div class="bold-600">Open Source</div>
+            <div>
+              We're open-sourced on GitHub. <br />
+              Contributions and feedback are welcome!
+            </div>
+            <div class="bat-github-btn">
+              <a class="link" href="https://github.com/ZuberDunge">
+                Contribute on Github <i class="fab fa-github social"></i
+              ></a>
+            </div>
+
+            <div>Version 1.0.0</div>
+
+            <div>Illustrations by Storyset</div>
+            <div>© BatstrapUI, 2022 All rights reserved.</div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
