@@ -9,7 +9,7 @@
 #bat-slider-item {
     width: 100%;
     display: grid;
-    transition: 0.7s;
+    transition: 0.3s;
     grid-template-columns: 100% 100% 100% 100%;
 }
 
