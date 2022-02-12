@@ -17,10 +17,12 @@
     border: 2px solid var(--white-only);
     background-color: var(--primary-red);
 
+
 }
 
 .bat-badge-icon {
     position: relative;
+
 }
 
 .bat-badge-icon .bat-badge-online {
