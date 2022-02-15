@@ -35,6 +35,6 @@
     cursor: pointer;
 }
 
-.active {
+.car-active {
     background: var(--white-only);
 }
