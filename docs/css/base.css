@@ -1,6 +1,7 @@
 :root {
     --nav-bg: #e63946ff;
     --primary-red: #e63946ff;
+    --white-red: #fff;
     --primary-red-only: #e63946ff;
     --primary-red-dark: #b82e38;
     --white: white;
@@ -32,13 +33,16 @@
     --btn-warning-hover: #e6ae06;
     --btn-info-hover: #0aa2c0;
     --btn-icon-hover: #97c4c6;
-
     --grey: #C8C8C8;
-
+    --yellow: #F8E831;
+    --discount: #388e3c;
+    --wishlist: #fc5656;
     --dark-grey: #858585;
+    --grey: #C8C8C8;
 }
 
 .bat-dark {
+    --white-red: #ee747e;
     --nav-bg: #343A40;
     --primary-red: #e63946ff;
     --primary-red-dark: #b82e38;

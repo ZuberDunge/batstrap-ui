@@ -3,6 +3,10 @@
     position: relative;
 }
 
+.navbar .bat-navbar {
+    color: var(--white-only);
+}
+
 .nav-menu button {
     padding: 0.5rem 1rem;
     color: var(--primary-red);
@@ -14,7 +18,7 @@
 }
 
 .nav-menu .material-icons:hover {
-    background-color: var(--grey);
+    background-color: var(--white-only);
     color: var(--primary-red);
 }
 
