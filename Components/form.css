@@ -30,3 +30,97 @@
     color: var(--alert-success);
     font-size: 12px;
 }
+
+
+
+
+.login-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 800px;
+    margin: 1rem auto 2rem;
+    gap: 1rem;
+}
+
+.login-img img {
+    height: 100%;
+    max-width: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.bat-login-form {
+    display: flex;
+    padding: 1rem;
+    font-size: 1rem;
+    flex-direction: column;
+    max-width: 450px;
+    width: 100%;
+    margin: auto;
+    border-radius: 5px;
+    border: 2px solid var(--grey);
+}
+
+.bat-login-form label {
+    font-size: 1rem;
+}
+
+.bat-login-form .input-parent input {
+    border: none;
+    border-bottom: 1px solid var(--grey);
+    width: 100%;
+    font-size: 1rem;
+    background-color: transparent;
+    margin: .75rem 0;
+}
+
+.bat-login-form input:focus {
+    border-bottom: 1px solid var(--primary-red);
+}
+
+.bat-login-form button {
+    width: 100%;
+}
+
+.login-with-google-btn {
+    background-color: var(--white);
+    color: var(--primary-red);
+    border: 2px solid var(--primary-red);
+}
+
+.input-parent {
+    position: relative;
+    padding: 10px 0;
+}
+
+.input-parent label {
+    color: var(--grey);
+    font-size: 16px;
+    font-weight: 100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    transform: translateY(20px);
+    transition: all 0.2s ease-in-out;
+}
+
+.input-parent input:valid+label,
+.input-parent input:focus+label {
+    font-size: 14px;
+    transform: translateY(0);
+}
+
+.hide-pass-icon {
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+}
+
+@media screen and (max-width: 750px) {
+    .login-form {
+        padding: 0 1rem;
+    }
+
+}

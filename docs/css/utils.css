@@ -67,6 +67,10 @@
     font-size: 2rem;
 }
 
+.width-100 {
+    width: 100%;
+}
+
 .bat-mxw-1200 {
     max-width: 1200px;
     width: 100%;
