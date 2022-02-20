@@ -24,7 +24,8 @@
     font-family: inherit;
     padding: 0.5rem;
     background-color: transparent;
-    max-width: 600px !important;
+    width: 100%;
+    max-width: 600px;
     transition: .5s all;
 }
 
