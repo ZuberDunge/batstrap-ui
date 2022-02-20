@@ -1,5 +1,6 @@
 .navbar {
     background-color: var(--primary-red);
+    position: relative;
 }
 
 .navbar .bat-navbar {
@@ -16,13 +17,6 @@
     color: var(--primary-red);
 }
 
-.material-icons {
-    cursor: pointer;
-    padding: 0.35rem;
-    border-radius: 50%;
-    transition: .2s all;
-}
-
 .nav-menu .material-icons:hover {
     background-color: var(--white-only);
     color: var(--primary-red);
@@ -34,11 +28,109 @@
     font-family: inherit;
     padding: 0.5rem;
     background-color: transparent;
-    width: 25vw;
+    width: 100%;
     max-width: 600px;
+    transition: .5s all;
 }
+
 
 .search-bar {
     background-color: var(--white-only);
     color: var(--primary-red);
+    padding: 0 .5rem;
+}
+
+.navbar .material-icons {
+    padding: 0;
+    margin-right: .35rem;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.bat-content-nav-pad {
+    padding: 1rem;
+}
+
+@media screen and (max-width: 700px) {
+    .bat-content-nav-pad {
+        padding: 0rem;
+    }
+
+    .landing-header {
+        margin: 0rem auto;
+    }
+
+    .nav-menu button {
+        background-color: transparent;
+        color: var(--white-only);
+        padding: 0rem;
+    }
+
+    .nav-menu button:hover {
+        background-color: transparent;
+    }
+
+    .hide-on-phone {
+        display: none;
+    }
+
+    .nav-menu {
+        /* position: fixed; */
+        bottom: 0;
+        display: flex;
+        background: var(--primary-red);
+        width: 100%;
+        left: 0;
+        right: 0;
+        z-index: 567;
+        padding: 0 .5rem;
+        gap: .25rem;
+        justify-content: flex-end;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .media-nav {
+        width: 100%;
+        justify-content: space-between;
+        gap: .35rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        padding: 0 0.5rem;
+    }
+
+    .navbar {
+        height: 120px;
+    }
+
+    .bat-logo i {
+        display: none;
+    }
+
+    .search-bar {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        margin: 0 1rem;
+        right: 0;
+        z-index: 2;
+        padding: 0.25rem;
+    }
+
+
+
+    header {
+        margin-top: 0rem;
+    }
+
+    .landing-header {
+        margin: 0rem;
+    }
 }
