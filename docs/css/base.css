@@ -33,10 +33,12 @@
     --btn-warning-hover: #e6ae06;
     --btn-info-hover: #0aa2c0;
     --btn-icon-hover: #97c4c6;
-
     --grey: #C8C8C8;
-
+    --yellow: #F8E831;
+    --discount: #388e3c;
+    --wishlist: #fc5656;
     --dark-grey: #858585;
+    --grey: #C8C8C8;
 }
 
 .bat-dark {

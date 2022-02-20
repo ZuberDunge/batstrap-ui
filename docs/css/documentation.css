@@ -66,6 +66,9 @@
     opacity: 1;
 }
 
+.bat-content {
+    padding-left: 2rem;
+}
 
 
 
@@ -86,6 +89,9 @@
 
 
 @media screen and (max-width: 800px) {
+    .bat-content {
+        padding-left: 1rem;
+    }
 
     .bat-blur-5px {
         filter: blur(5px);
@@ -116,5 +122,11 @@
     .bat-grid-docs {
         display: grid;
         grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .bat-content {
+        padding: 1rem;
     }
 }

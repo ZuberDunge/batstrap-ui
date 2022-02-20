@@ -93,6 +93,57 @@
     color: var(--white-only);
 }
 
+
+
+.total-bill-section {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 1rem;
+    gap: 20px;
+    top: 0;
+    max-width: 400px;
+    width: 100%;
+}
+
+.grey-color {
+    color: #878787;
+}
+
+.discount-color {
+    color: var(--discount);
+}
+
+
+
+.plcae-order-btn {
+    background-color: var(--primary-red);
+    font-size: 1.2rem;
+}
+
+.plcae-order-btn:hover {
+    background-color: var(--primary-red-dark);
+}
+
+.apply-coupon input {
+    padding: .5rem 1rem;
+    width: 100%;
+    border-radius: 3px;
+    outline: none;
+    border: 2px solid var(--grey);
+    transition: .3s all;
+}
+
+.apply-coupon input:focus {
+    border: 2px solid var(--primary-red);
+}
+
+.apply-coupon button {
+    padding: .5rem;
+    width: 40%;
+}
+
+
+
 @media screen and (max-width: 500px) {
     .bat-card-horizontal.bat-card button span {
         display: none;
