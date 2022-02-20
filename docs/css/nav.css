@@ -4,14 +4,14 @@
 
 }
 
-nav {
+.bat-navbar {
     max-width: 1200px;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-size: 1.5rem;
-    color: var(--honeydew);
+    color: var(--white-red);
     height: 60px;
     padding: 0 1rem;
 }
@@ -53,7 +53,7 @@ nav {
     justify-content: flex-end;
     align-items: center;
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .bat-theme-toggle,

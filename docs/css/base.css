@@ -1,6 +1,7 @@
 :root {
     --nav-bg: #e63946ff;
     --primary-red: #e63946ff;
+    --white-red: #fff;
     --primary-red-only: #e63946ff;
     --primary-red-dark: #b82e38;
     --white: white;
@@ -39,6 +40,7 @@
 }
 
 .bat-dark {
+    --white-red: #ee747e;
     --nav-bg: #343A40;
     --primary-red: #e63946ff;
     --primary-red-dark: #b82e38;
