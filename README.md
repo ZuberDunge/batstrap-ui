@@ -4,7 +4,7 @@
 
 BatstrapUI is A free, open source library that provides ready-to-use UI components that you can easily combine to build responsive web sites.
 
-![MIT License](https://img.shields.io/static/v1?label=vercel&message=success&color=<COLOR>)
+![MIT License](https://img.shields.io/static/v1?label=netlify&message=success&color=<COLOR>)
 
 ## Demo
 ![BatstrapUI](./assets/BatstrapUI.gif)
