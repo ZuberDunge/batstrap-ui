@@ -12,6 +12,18 @@
     position: relative;
 }
 
+.bat-card-text {
+    font-family: 'Poppins';
+    max-width: 450px;
+    overflow: hidden;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    width: 100%;
+    position: relative;
+}
+
 .bat-card .bat-badge {
     display: none;
 }
