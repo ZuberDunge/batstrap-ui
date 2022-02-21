@@ -10,6 +10,23 @@
     display: flex;
 }
 
+.bat-grid {
+    display: grid;
+}
+
+.bat-block {
+    display: block;
+}
+
+.bat-inline {
+    display: inline;
+}
+
+.bat-inline-block {
+    display: inline-block;
+}
+
+
 .flex-gap-1 {
     gap: 1rem;
 }
@@ -38,6 +55,22 @@
     justify-content: space-between;
 }
 
+.bat-justify-evenly {
+    justify-content: space-evenly;
+}
+
+.bat-justify-start {
+    justify-content: start;
+}
+
+.bat-justify-end {
+    justify-content: end;
+}
+
+.bat-justify-around {
+    justify-content: space-around;
+}
+
 .bat-flex-wrap {
     flex-wrap: wrap;
 }
@@ -53,6 +86,62 @@
 
 .bold-500 {
     font-weight: 500;
+}
+
+.bat-fs-10px {
+    font-size: 10px;
+}
+
+.bat-fs-12px {
+    font-size: 12px;
+}
+
+.bat-fs-14px {
+    font-size: 14px;
+}
+
+.bat-fs-16px {
+    font-size: 16px;
+}
+
+.bat-fs-18px {
+    font-size: 18px;
+}
+
+.bat-fs-20px {
+    font-size: 20px;
+}
+
+.bat-fs-22px {
+    font-size: 22px;
+}
+
+.bat-fs-24px {
+    font-size: 24px;
+}
+
+.bat-fs-26px {
+    font-size: 26px;
+}
+
+.bat-fs-28px {
+    font-size: 28px;
+}
+
+.bat-fs-30px {
+    font-size: 30px;
+}
+
+.bat-fs-32px {
+    font-size: 32px;
+}
+
+.bat-fs-34px {
+    font-size: 34px;
+}
+
+.bat-fs-36px {
+    font-size: 36px;
 }
 
 .bat-fs-1r {

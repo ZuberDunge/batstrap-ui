@@ -85,13 +85,17 @@
     opacity: 1
 }
 
-
+.utlity-section code {
+    background-color: var(--grey);
+    padding: .25rem;
+}
 
 @media screen and (max-width: 800px) {
     .bat-content {
         padding-left: 1rem;
     }
 }
+
 @media screen and (max-width: 900px) {
 
     .bat-blur-5px {
