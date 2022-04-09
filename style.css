@@ -1,3 +1,4 @@
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 @import url('./Components/alert.css');
@@ -7,7 +8,7 @@
 @import url('./Components/img-responsive.css');
 @import url('./Components/form.css');
 @import url('./Components/badge.css');
-/* @import url('./docs/css/index.css'); */
+@import url('./docs/css/index.css');
 @import url('./Components/modal.css');
 @import url('./Components/navbar.css');
 @import url("./Components/toast.css");
@@ -16,3 +17,11 @@
 @import url('./Components/list.css');
 @import url('./Components/rating.css');
 @import url('./Components/typography.css');
+@import url("./Components/base.css");
+@import url("./Components/header.css");
+@import url("./Components/Footer.css");
+@import url("./Components/main.css");
+@import url("./Components/reset.css");
+@import url("./Components/nav.css");
+@import url("./Components/utils.css");
+@import url("./Components/documentation.css");
