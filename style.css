@@ -8,7 +8,6 @@
 @import url('./Components/img-responsive.css');
 @import url('./Components/form.css');
 @import url('./Components/badge.css');
-@import url('./docs/css/index.css');
 @import url('./Components/modal.css');
 @import url('./Components/navbar.css');
 @import url("./Components/toast.css");
@@ -17,11 +16,11 @@
 @import url('./Components/list.css');
 @import url('./Components/rating.css');
 @import url('./Components/typography.css');
-@import url("./Components/base.css");
-@import url("./Components/header.css");
-@import url("./Components/Footer.css");
-@import url("./Components/main.css");
-@import url("./Components/reset.css");
-@import url("./Components/nav.css");
-@import url("./Components/utils.css");
-@import url("./Components/documentation.css");
+@import url("./docs/css/base.css");
+@import url("./docs/css/header.css");
+@import url("./docs/css/Footer.css");
+@import url("./docs/css/main.css");
+@import url("./docs/css/reset.css");
+@import url("./docs/css/nav.css");
+@import url("./docs/css/utils.css");
+@import url("./docs/css/documentation.css");
